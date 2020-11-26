@@ -7,18 +7,22 @@ import { LogoComponent } from './logo/logo.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TicketListComponent } from './ticket-list/ticket-list.component';
 import { HomeComponent } from './home/home.component';
+import { TicketInfoComponent } from './ticket-info/ticket-info.component';
+import {MatCardModule} from '@angular/material/card'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     LogoComponent,
     TicketListComponent,
-    HomeComponent
+    HomeComponent,
+    TicketInfoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

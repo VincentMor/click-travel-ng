@@ -1,5 +1,5 @@
 export interface ITicket {
-    name: string,
+    passenger: string,
     flight: string,
     from: string,
     to: string,
@@ -7,5 +7,5 @@ export interface ITicket {
     gate: string,
     time: string,
     seat: string,
-    numder: number
+    number: number
 }

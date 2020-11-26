@@ -1,0 +1,25 @@
+mat-card-header,mat-card-footer{
+    background-color: blue;
+    color: white;
+}
+mat-card-header{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+mat-card-footer{
+    height:20px;
+    padding: 0px;
+    margin: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+mat-card{
+    padding: 0px;
+    width: 800px;
+    border-radius: 20px;
+    background-color:  white;
+}
+
+mat-card-content{
+    color:black;
+}
