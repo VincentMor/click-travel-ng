@@ -1,14 +1,14 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { ClickTravelService } from './click-travel';
-import { IDestination } from './Interfaces/IDestination';
+import { ClickTravelService } from '../click-travel';
+import { IDestination } from '../Interfaces/IDestination';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
 })
-export class AppComponent implements OnInit, OnDestroy {
+export class HomeComponent implements OnInit,OnDestroy {
   title = 'Choose your dream destination...';
   subscription: Subscription;
   destinations: IDestination[];
